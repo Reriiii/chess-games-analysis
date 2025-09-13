@@ -61,7 +61,7 @@ After preprocessing, the dataset will be imported into **PostgreSQL** for struct
 
 ## 4. Data Analysis with Python
 
-- Load the sampled dataset `(12,000,000 rows × 11 features)` into Pandas for exploration.  
+- Load the sampled dataset `(12,000,000 rows × 10 features)` into Pandas for exploration.  
 - Perform feature understanding:
   - **Player Ratings**: Analyze rating distributions of White and Black.  
   - **Result Patterns**: Compare win/draw/loss frequencies across rating levels.  
