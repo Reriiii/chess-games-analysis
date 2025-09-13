@@ -13,7 +13,7 @@ PATH = f"F://dataset/chess-game/{DATE}/lichess_db_standard_rated_{DATE}.pgn"
 OUTPUT_CSV = f"dataset/{DATE}.csv"
 LOG_FILE = f"logs/log_{DATE}.txt"
 
-LOG_INTERVAL = 1000
+LOG_INTERVAL = 10_000
 LIMIT = 1_000_000  # số lượng game cần sample
 SEED = 42
 # ---------------------------
